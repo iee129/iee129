@@ -1,0 +1,8 @@
+// script.js
+
+const toggleButton = document.getElementById('toggleButton'); // 버튼 요소 가져오기
+const sidebar = document.querySelector('.sidebar'); // 사이드바 요소 가져오기
+
+toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('open'); // 사이드바에 'open' 클래스를 토글
+});
