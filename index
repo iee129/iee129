@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사이드바 예제</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 연결 -->
+</head>
+<body>
+
+<div class="sidebar">
+    <ul>
+        <li><a href="#">메뉴 1</a></li>
+        <li><a href="#">메뉴 2</a></li>
+        <li><a href="#">메뉴 3</a></li>
+        <!-- 필요한 만큼 메뉴 아이템 추가 -->
+    </ul>
+</div>
+
+<div class="content">
+    <!-- 사이드바 외의 본문 내용 -->
+</div>
+
+<button id="toggleButton">사이드바 열기/닫기</button> <!-- 수정된 버튼 -->
+
+<script src="script.js"></script> <!-- JavaScript 파일 연결 -->
+
+</body>
+</html>
